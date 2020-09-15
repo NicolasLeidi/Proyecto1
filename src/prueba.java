@@ -11,7 +11,9 @@ public class prueba {
 		grafo.addEdge(2, 3);
 		grafo.addEdge(3, 4);
 		grafo.addEdge(2, 4);
-		
+
+		grafo.addEdge(6, 4);
+		grafo.addNode(0);
 		grafo.removeNode(3);
 		grafo.addNode(3);
 		grafo.removeEdge(2, 3);
