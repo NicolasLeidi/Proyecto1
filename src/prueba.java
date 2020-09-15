@@ -15,6 +15,7 @@ public class prueba {
 		grafo.removeNode(3);
 		grafo.addNode(3);
 		grafo.removeEdge(2, 3);
+		grafo.removeNode(4);
 		grafo.addNode(3);
 	}
 }
